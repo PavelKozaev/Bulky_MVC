@@ -12,7 +12,7 @@ namespace BulkyBook.Models.ViewModels
     {
         public Product Product { get; set; }
 
-        //[ValidateNever]
+        [ValidateNever]
         public IEnumerable<SelectListItem> CategoryList { get; set; }
     }
 }
